@@ -1,0 +1,47 @@
+{
+  "name": "erc8004-js",
+  "version": "0.1.0",
+  "description": "Lightweight TypeScript SDK + CLI for ERC-8004 Trustless Agent identities on Base, Celo, Ethereum and more.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "bin": {
+    "erc8004": "./dist/cli.js"
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "erc-8004",
+    "erc8004",
+    "trustless-agents",
+    "ai-agents",
+    "agent-identity",
+    "base",
+    "celo",
+    "viem",
+    "onchain",
+    "x402"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "viem": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0",
+    "viem": "^2.21.0"
+  }
+}
