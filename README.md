@@ -62,7 +62,7 @@ ERC8004_PRIVATE_KEY=0x... npx erc8004 register --chain 42220 https://you.github.
 
 ## Supported chains
 
-Identity + Reputation registries ship for: Ethereum (1), Sepolia (11155111), **Base (8453)**, **Base Sepolia (84532)**, **Celo (42220)**, **Celo Alfajores (44787)**, Arbitrum (42161), Optimism (10), Polygon (137). Run `erc8004 chains` for the live list.
+Identity + Reputation registries ship for: Ethereum (1), Sepolia (11155111), **Base (8453)**, **Base Sepolia (84532)**, **Celo (42220)**, **Celo Sepolia (11142220)**, Celo Alfajores (44787, deprecated), Arbitrum (42161), Optimism (10), Polygon (137). Run `erc8004 chains` for the live list.
 
 Registry addresses (same across all deployments of each tier):
 

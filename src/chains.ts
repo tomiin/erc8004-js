@@ -4,6 +4,7 @@ import {
   base,
   baseSepolia,
   celo,
+  celoSepolia,
   celoAlfajores,
   arbitrum,
   optimism,
@@ -35,7 +36,8 @@ export const REGISTRIES: Record<number, RegistrySet> = {
   8453: MAINNET_SET, // Base
   84532: TESTNET_SET, // Base Sepolia
   42220: MAINNET_SET, // Celo
-  44787: TESTNET_SET, // Celo Alfajores
+  11142220: TESTNET_SET, // Celo Sepolia (current testnet)
+  44787: TESTNET_SET, // Celo Alfajores (deprecated)
   42161: MAINNET_SET, // Arbitrum
   10: MAINNET_SET, // Optimism
   137: MAINNET_SET, // Polygon
@@ -48,6 +50,7 @@ export const CHAINS: Record<number, Chain> = {
   8453: base,
   84532: baseSepolia,
   42220: celo,
+  11142220: celoSepolia,
   44787: celoAlfajores,
   42161: arbitrum,
   10: optimism,
