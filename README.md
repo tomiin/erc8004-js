@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/banner.png" alt="erc8004-js — ERC-8004 Trustless Agent identity SDK + CLI" width="760" />
+</p>
+
 # erc8004-js
 
 > A lightweight TypeScript SDK + CLI for **ERC-8004 "Trustless Agent" identities** — register, read, update, and transfer on-chain agent identities across **Base, Celo, Ethereum, and more**.
